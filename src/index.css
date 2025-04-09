@@ -57,7 +57,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #fff;
   }
   a:hover {
     color: #747bff;
@@ -65,4 +65,40 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+.phonebook{
+  max-width: 250px;
 }
